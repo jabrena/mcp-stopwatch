@@ -6,6 +6,12 @@ sdk env
 
 jbang ./src/main/java/info/jab/jbang/MCPStopWatch.java
 
+sdk install jbang
+
+jbang trust list
+jbang cache clear
+jbang catalog list jabrena
+
 jbang stopwatch-mcp@jabrena
 
 docker build -t stopwatch-mcp -f Dockerfile .
