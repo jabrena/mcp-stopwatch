@@ -6,10 +6,10 @@ sdk env
 
 jbang ./src/main/java/info/jab/jbang/MCPStopWatch.java
 
-jbang mcp-calculator@jabrena
+jbang stopwatch-mcp@jabrena
 
-docker build -t mcp-stopwatch -f Dockerfile .
-docker run mcp-stopwatch
+docker build -t stopwatch-mcp -f Dockerfile .
+docker run stopwatch-mcp
 
 ./mvnw versions:display-dependency-updates
 ./mvnw versions:display-plugin-updates
